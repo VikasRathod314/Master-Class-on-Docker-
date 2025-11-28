@@ -1,0 +1,47 @@
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.feedback-box {
+    border: 1px solid #bbb;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background: #fafafa;
+}

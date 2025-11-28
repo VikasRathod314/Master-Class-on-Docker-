@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thank You</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    {% if error %}
+        <h3 style="color:red;">{{ error }}</h3>
+        <a href="/">Go Back</a>
+    {% else %}
+        <h2>Thank You, {{ name }}! 🎉</h2>
+        <p>Your feedback will help us for improving our AI sessions:</p>
+        <p>Your feedback is:</p>
+        <div class="feedback-box">
+            {{ feedback }}
+        </div>
+        <a href="/">Submit Another</a>
+    {% endif %}
+</div>
+
+</body>
+</html>
